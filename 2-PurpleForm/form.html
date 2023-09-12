@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,47 +8,40 @@
 	</head>
 	<body>
 		<main>
-			<div class="form-wrapper">
-				<h1>Свяжитесь со мной</h1>
-				<form action="#" method="post">
-					<div>
-						<label for="email"
-							>E-mail*
-							<input type="email" name="email" id="email" placeholder="123@gmail.com" required />
-						</label>
-					</div>
+			<h1>Свяжитесь со мной</h1>
+			<form action="#" method="post">
+				<div class="field">
+					<img src="./img/message.svg" alt="email icon" />
+					<label class="form-label" for="email">E-mail*</label>
+					<input type="email" name="email" id="email" placeholder="123@gmail.com" required />
+				</div>
 
-					<div>
-						<label for="social"
-							>Telegram
-							<input type="text" name="social" id="social" placeholder="123@gmail.com" />
-						</label>
-					</div>
-					<div>
-						<label for="select_theme"
-							>Тема*
-							<select name="select_theme" id="select_theme" required>
-								<option value="first" selected>Приобретение курсов</option>
-								<option value="second">Вопрос по урокам</option>
-								<option value="third">Оплата курсов</option>
-							</select>
-						</label>
-					</div>
-					<div>
-						<label for="comment"
-							>Комментарий
-							<textarea
-								name="comment"
-								id="comment"
-								cols="50"
-								rows="8"
-								placeholder="Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета. Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета."
-							></textarea>
-						</label>
-					</div>
-					<button type="submit">Отправить</button>
-				</form>
-			</div>
+				<div class="field">
+					<img src="./img/telegram.svg" alt="telegram icon" />
+					<label class="form-label" for="social">Telegram</label>
+					<input type="text" name="social" id="social" placeholder="123@gmail.com" />
+				</div>
+				<div class="field">
+					<img src="./img/topic.svg" alt="topic icon" />
+					<label class="form-label" for="select_theme">Тема*</label>
+					<select name="select_theme" id="select_theme" required>
+						<option value="first" selected>Приобретение курсов</option>
+						<option value="second">Вопрос по урокам</option>
+						<option value="third">Оплата курсов</option>
+					</select>
+				</div>
+				<div class="field">
+					<label class="form-label" for="comment">Комментарий</label>
+					<textarea
+						name="comment"
+						id="comment"
+						cols="50"
+						rows="8"
+						placeholder="Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета. Хочу купить ваши курсы для своих сотрудников и они станут очень умными. Направьте, пожалуйста, свои реквизиты для выставления счета."
+					></textarea>
+				</div>
+				<button type="submit">Отправить</button>
+			</form>
 		</main>
 	</body>
 </html>
