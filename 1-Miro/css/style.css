@@ -10,12 +10,15 @@ body {
 header > nav > ul {
   list-style: none;
 }
-
+header {
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 60px;
+}
 .header_nav {
   max-width: 1200px;
   margin: 0 auto;
   padding: 33px 50px;
-  border-bottom: 1px solid #f0f0f0;
+  
 }
 
 .header_nav-menu {
@@ -46,7 +49,7 @@ h1 {
   line-height: 56px;
   /* 116.667% */
   letter-spacing: 1px;
-  margin-top: 60px;
+  margin: 0 0 17px 0;
 }
 
 p {
@@ -77,4 +80,12 @@ button {
   line-height: 27px;
   padding: 15px;
   margin-top: 10px;
+}
+section {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#hero {
+	display: flex;
+	gap: 60px;
 }
